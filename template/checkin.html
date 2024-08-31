@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkin page</title>
+    <link rel="stylesheet" href="/static/css/checkin.css">
+</head>
+<body>
+    <div id="main_div">
+        <form action="/checkin" method="post">
+            <div class="content">
+                <input type="text" id="c_id" name="c_id" required placeholder="ENTER CUSTOMER ID">
+            </div>
+
+            <div class="rad_div">
+                <input type="radio" id="room1" name="room" value="1">
+                <label for="room1">SUITE</label>
+            </div>
+
+            <div class="rad_div">
+                <input type="radio" id="room2" name="room" value="2">
+                <label for="room2">DELUXE</label>
+            </div>
+
+            <div class="rad_div">
+                <input type="radio" id="room3" name="room" value="3">
+                <label for="room3">DELUXE SUPREME</label>
+            </div>
+
+            <div class="content">
+                <input type="text" id="days" name="days" required placeholder="ENTER NUMBER OF DAYS">
+            </div>
+            
+            <div class="content">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

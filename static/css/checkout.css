@@ -1,0 +1,33 @@
+body{
+    margin-left: 670px;
+    background: url('checkout.jpg');
+    /* the following is used to make the image as a background for the whole page */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main_div{
+    height: 400px;
+    width: 416px;
+}
+
+.content input {
+    font-size: 20px;
+    color: grey;
+    background-color: #020202;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 9px;
+    padding: 11px;
+    width: 358px;
+}
+
+.val {
+    display: inline;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin-left: 17px;
+    font-size: 30px;
+    padding: 5px;
+}

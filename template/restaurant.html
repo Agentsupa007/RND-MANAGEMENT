@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="stylesheet" href="/static/css/restaurant.css">
+</head>
+<body>
+    <div class="main_div">
+        <form action="/restaurant" method="post">
+            <div class="content">
+                <input type="text" id="c_id" name="c_id" required placeholder="Customer ID:">
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item1" name="restaurant" value="1">
+                <label for="item1">IDLY</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item2" name="restaurant" value="2">
+                <label for="item2">VADA</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item3" name="restaurant" value="3">
+                <label for="item3">TEA</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item4" name="restaurant" value="4">
+                <label for="item4">COFFEE</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item5" name="restaurant" value="5">
+                <label for="item5">DOSA</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="item6" name="restaurant" value="6">
+                <label for="item6">PONGAL</label>
+            </div>
+            <div class="content">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

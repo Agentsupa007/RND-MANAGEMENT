@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link rel="stylesheet" href="/static/css/spa.css">
+</head>
+<body>
+    <div class="main_div">
+        <form action="/spa" method="post">
+            <div class="content">
+                <input type="text" id="c_id" name="c_id" required placeholder="Customer ID:">
+            </div>
+            <div class="rad_div">
+            <input type="radio" id="spa1" name="spa" value="1">
+            <label for="spa1">UPPER BODY</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="spa2" name="spa" value="2">
+                <label for="spa2">LOWER BODY</label>
+            </div>
+            <div class="rad_div">
+                <input type="radio" id="spa3" name="spa" value="3">
+                <label for="spa3">FULL BODY</label>
+            </div>
+            <div class="content">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

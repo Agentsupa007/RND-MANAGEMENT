@@ -1,0 +1,36 @@
+body{
+    background: url('spa.jpg');
+    /* the following is used to make the image as a background for the whole page */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main_div{
+    height: 400px;
+    width: 416px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.content input {
+    font-size: 20px;
+    color: grey;
+    background-color: #020202;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 9px;
+    padding: 11px;
+    width: 358px;
+}
+
+form {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 25px;
+    text-align: left;
+}
+
+.rad_div{
+    margin: 10px;
+}

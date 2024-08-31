@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAUNDRY</title>
+    <link rel="stylesheet" href="/static/css/laundry.css">
+</head>
+<body>
+    <div id="main_div">
+        <form action="/laundry" method="post">
+            <div class="content">
+                <input type="text" id="c_id" name="c_id" required placeholder="ENTER CUSTOMER ID">
+            </div>
+            <br>
+            <div class="rad_div">
+                <input type="radio" id="cloth1" name="cloth" value="1">
+                <label for="room1">SHIRT/T-SHIRT</label>
+            </div>
+
+            <div class="rad_div">
+                <input type="radio" id="cloth2" name="cloth" value="2">
+                <label for="room2">JEANS/PANT</label>
+            </div>
+
+            <div class="rad_div">
+                <input type="radio" id="cloth3" name="cloth" value="3">
+                <label for="room3">UNDERGARMENTS</label>
+            </div>
+
+            <div class="content">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
